@@ -3,6 +3,5 @@ add text info to html
   goals
 css
 js
-  time ticker
-  view ticker
-backend with php probably
+  console.log viewer number ticker 
+backend with php probably (still learning)
