@@ -1,0 +1,6 @@
+add text info to html
+css
+js
+  time ticker
+  view ticker
+backend with php probably
