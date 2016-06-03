@@ -1,4 +1,6 @@
 add text info to html
+  job history
+  goals
 css
 js
   time ticker
