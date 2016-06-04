@@ -1,3 +1,2 @@
 # mitchellcongdonsite
-Project for portfolio
-Resume Site
+Project for my portfolio, a resume site.
