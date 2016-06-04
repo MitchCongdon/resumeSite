@@ -1,2 +1,3 @@
 # mitchellcongdonsite
-for self education
+Project for portfolio
+Resume Site
