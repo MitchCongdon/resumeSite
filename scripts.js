@@ -1,6 +1,8 @@
-var tickTock = setInterval(timeTicker, 1000);
+//clock
+var tickTock = setInterval(clockFunc, 1000);
 
-function timeTicker() {
+function clockFunc() {
     var d = new Date();
-    document.getElementById("timeTicker").innerHTML = d.toLocaleTimeString();
+    document.getElementById('clockTop').innerHTML = d.toLocaleTimeString();
+    document.getElementById('clockBottom').innerHTML = d.toLocaleTimeString();
 }
