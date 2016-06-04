@@ -4,7 +4,7 @@ body{
 }
 header {
 	text-align: center;
-	background-image: url("img/code_banner.png");
+	background-image: url("img/blueBinary.jpg");
 }
 
 h1{
@@ -46,7 +46,6 @@ header h2{
 	background: black;
 	min-height: 30px;
 	padding: 10px;
-	position: fixed;
 	text-align: center;
 }
 .nav .name{
@@ -54,7 +53,7 @@ header h2{
 }
 #foot{
 	text-align: center;
-	background-image: url("img/code_banner.png");
+	background-image: url("img/blueBinary.jpg");
 }
 .infoBox {
 	height: 400px;
@@ -74,7 +73,7 @@ header h2{
 	text-align: center;
 	max-width: 180px;
 	background-color: black;
-	color: yellow;
+	color: white;
 	font-size: 26px;
 }
 #clockTop{
@@ -85,27 +84,37 @@ header h2{
 	text-align: center;
 	max-width: 180px;
 	background-color: black;
-	color: yellow;
+	color: white;
 	font-size: 26px;
 }
 .linkButton{
+	transition: all .5s;
 	border: 2px solid white;
 	border-radius: 50%;
 	height: auto; 
     width: auto; 
-    max-width: 25px; 
-    max-height: 25px;
+    max-width: 50px; 
+    max-height: 50px;
 }
 .linkButton:hover{
-
-	transform: scale(1.5);
+	transform: scale(1.25) rotate(5deg);
 }
 #picOfMe {
+	transition: all .5s;
 	width: auto;
 	max-width: 150px;
 	border-radius: 50%;
 	border: 5px solid black;
 }
 #picOfMe:hover {
-	transform: scale(2);
+	transform: scale(1.25);
+}
+.contactAlert{
+	transition: all .25s;
+	font-size: 30px;
+	color: white;
+}
+.contactAlert:hover{
+	color: blue;
+	transform: scale(1.25) rotate(-1deg);
 }
