@@ -2,60 +2,73 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<meta charset="utf-8">
 		<title>Mitchell Congdon | Aspiring Front-End Developer</title>
 	</head>
-	<body>
-		<header>
-			<section class="nav">
-					<h1>Mitchell Congdon</h1>
-					<button class="contactAlert" onclick="throwContactInfo()">Contact Info</button>
-			</section>
-			
-			<img id="picOfMe" src="img/meTuxZoom.jpg" >
-			<p>
-				<a href="https://www.linkedin.com/in/mitchell-congdon-08a623121">
-					<img class="linkButton" src="img/linkedIn.jpg">
-				</a>
-			</p>
-			<h2>Aspiring Front-End Developer</h2>
-			<p id="clockTop"></p>
-			
-			
-		</header>
-		<section class="infoBox">
-			<h2>Professional Summary</h2>
-			<p>Young, business professional able to function well independently with little to no supervision or in coordination with a professional electronic media team.</p>
-		</section>
-		<section class="infoBox">
-			<h2>Core Qualifications</h2>
-				<ul>
-					<li>Exceptional creative and analytical thinking abilities</li>
-					<li>Sound oral and written communication skills</li>
-					<li>Proficient in HTML, CSS, JavaScript, GIMP</li>
-					<li>Superior management skills</li>
-					<li>Determined</li>
-					<li>Highly motivated</li>
-				</ul>
-		</section>
-		<section class="infoBox">
-			<h2>Experience Summary</h2>
-			//display all job block,maybe slideshow
-			<ul>
-				<li>Self employed date-date</li>
-				<li>Leprino Foods date-date</li>
-				<li>Nestle Waters Ice Mountain date-date</li>
-			</ul>
-		</section>
-		<script src="scripts.js"></script>
-		
-	</body>
-	<footer id="foot">
-		<p id="clockBottom"></p>
-		<button class="contactAlert" onclick="throwContactInfo()">Contact Info</button>
-		<a href="https://www.linkedin.com/in/mitchell-congdon-08a623121">
-		<p><img class="linkButton" src="img/linkedIn.jpg"></p>
-		</a>
-	</footer>
+	<div class="wrapper-outer">
+		<body>
+			<header>
+				<h1>Mitchell Congdon</h1>
+				<br>
+				<img id="picOfMe" src="img/meTuxZoom.jpg" >
+				<p>
+					<a href="https://www.linkedin.com/in/mitchell-congdon-08a623121">
+						<img class="linkButton" src="img/linkedIn.jpg">
+					</a>
+				</p>
+				<h2>Aspiring Front-End Developer</h2>
+				<p id="clockTop"></p>
+			</header>
+			<button id="adressBTN">Contact Info</button>
+				<div id="adress">
+					<p>Mitchell Congdon</p>
+					<p>congdonmitchell@gmail.com</p>
+					<p>(616)510-XXXX</p>
+					<p>Holland, MI 49423</p>
+					<button id="hideAdress">Hide This!</button>
+				</div>
+			<div class="wrapper-inner">
+				<section class="infoBox">
+					<h2>Professional Summary</h2>
+					<p>Young, business professional able to function well independently with little to no supervision or in coordination with a professional electronic media team.</p>
+				</section>
+				<section class="infoBox">
+					<h2>Core Qualifications</h2>
+						<ul>
+							<li>*Exceptional creative and analytical thinking abilities</li>
+							<li>*Sound oral and written communication skills</li>
+							<li>*Proficient in HTML, CSS, JavaScript, GIMP</li>
+							<li>*Superior management skills</li>
+							<li>*Determined</li>
+							<li>*Highly motivated</li>
+						</ul>
+				</section>
+				<section class="infoBox">
+					<h2>Experience Summary</h2>
+					//display all job block,maybe slideshow
+					<ul>
+						<li>Self employed date-date</li>
+						<li>Leprino Foods date-date</li>
+						<li>Nestle Waters Ice Mountain date-date</li>
+					</ul>
+				</section>
+				<section class="infoBox">
+					<h2>Info Box Place Holder</h2>
+					<p>Another info box to make the page even</p>
+				</section>
+			</div>
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="scripts.js"></script>
+
+		</body>
+		<footer>
+			<p id="clockBottom"></p>
+			<button class="contactAlert" onclick="throwContactInfo()">Contact Info</button>
+			<a href="https://www.linkedin.com/in/mitchell-congdon-08a623121">
+			<p><img class="linkButton" src="img/linkedIn.jpg"></p>
+			</a>
+		</footer>
+	</div>
 </html>

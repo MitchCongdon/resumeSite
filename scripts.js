@@ -6,6 +6,21 @@ function clockFunc() {
     document.getElementById('clockTop').innerHTML = d.toLocaleTimeString();
     document.getElementById('clockBottom').innerHTML = d.toLocaleTimeString();
 }
-function throwContactInfo() {
-    alert("Mitchell Congdon\n616-510-XXXX\n3XX Oxford Court\nApartment 2\nHolland MI, 494XX");
+//show contact info
+function showContactInfo() {
+    document.getElementById("infoL1").innerHTML = "Mitchell Congdon";
+ 	document.getElementById("infoL2").innerHTML = "congdonmitchell@gmail.com";
+ 	document.getElementById("infoL3").innerHTML = "(616)510-XXXX";
+ 	document.getElementById("infoL4").innerHTML = "Holland, MI 49423";
 }
+//jquery
+$(".infoBox h2").hide().show("slow");
+$("#adress").hide();
+$( "#adressBTN" ).click(function() {
+  $( "#adress" ).show( "fast" );
+  $( "#adressBTN" ).hide( "fast" );
+});
+$( "#hideAdress" ).click(function() {
+  $( "#adress" ).hide( "fast" );
+  $( "#adressBTN" ).show( "fast" );
+});

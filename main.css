@@ -1,70 +1,47 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	text-align: center;
-	background: black;
 }
-header {
+header, footer {
 	text-align: center;
 	background-image: url("img/blueBinary.jpg");
 }
 
-h1{
-	background-color: #999999;
-	letter-spacing: 6px;
-}
-h2{
-	background-color: #999999;
-	letter-spacing: 6px;
-}
-h3{
-	background-color: #999999;
-	letter-spacing: 6px;
-}
-header h1{
-	margin-left: auto;
-	margin-right: auto;
-	height: auto; 
-    width: auto; 
-    max-width: 600px; 
-    max-height: 600px;
-    border-radius: 10px;
-	background-color: black;
-	color: white;
-}
-header h2{
-	margin-left: auto;
-	margin-right: auto;
-	height: auto; 
-    width: auto; 
-    max-width: 600px; 
-    max-height: 600px;
-    border-radius: 10px;
-	background-color: black;
-	color: white;
-}
-.nav {	
-	width: 100%;
-	background: black;
-	min-height: 30px;
-	padding: 10px;
+h1, h2, h3{
+	border-radius: 10px;
 	text-align: center;
+	margin: 0;
+	background-color: #999999;
+	letter-spacing: 6px;
+}
+
+header h1, header h2{
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+    width: auto;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 10px;
+	background-color: black;
+	color: white;
 }
 .nav .name{
 	text-align: left;
 }
-#foot{
-	text-align: center;
-	background-image: url("img/blueBinary.jpg");
-}
 .infoBox {
-	height: 400px;
-	margin: 30px;
+	width: 400px;
+	vertical-align: top;
+	display: inline-block;
+	height:250px;
+	margin-right: -4px;
 	padding: 20px;
-	width: auto;
-	max-width: 500px;
 	text-align: left;
-	border-radius: 10px;
-	background: #f5f5f5;
+	background: #c4c4c4;
 }
+
 #clockBottom{
 	margin-left: auto;
 	margin-right: auto;
@@ -91,9 +68,9 @@ header h2{
 	transition: all .5s;
 	border: 2px solid white;
 	border-radius: 50%;
-	height: auto; 
-    width: auto; 
-    max-width: 50px; 
+	height: auto;
+    width: auto;
+    max-width: 50px;
     max-height: 50px;
 }
 .linkButton:hover{
@@ -109,12 +86,30 @@ header h2{
 #picOfMe:hover {
 	transform: scale(1.25);
 }
-.contactAlert{
-	transition: all .25s;
-	font-size: 30px;
-	color: white;
+#adress{
+	float:top;
+	border-radius: 10px;
+	width:250px;
+	padding:0px;
+	display: block;
+	margin: 0 auto 0 1em ;
+	background: #999999;
+	font-size: 18px;
 }
-.contactAlert:hover{
-	color: blue;
-	transform: scale(1.25) rotate(-1deg);
+.wrapper-outer{
+	width: 100%;
+	margin: 0 auto;
+}
+.wrapper-inner{
+	width: 95%;
+	min-width: 400px;
+	max-width: 1000px;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+button{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
 }
