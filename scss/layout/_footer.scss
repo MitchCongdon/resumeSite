@@ -1,0 +1,10 @@
+footer {
+	height: 200px;
+	margin-top:2em;
+	border-top:solid $color-border-light 2px;
+	text-align: center;
+	background-color: $yellow-orange;
+}
+footer, .push{
+	height: 200px; 
+}

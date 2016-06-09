@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 100%;
+  background-color: #add8e6;
+  text-align: center; }
+
+h1, h2, h3 {
+  border-radius: 10px;
+  text-align: center;
+  margin: 0;
+  background-color: #999999;
+  letter-spacing: 6px; }
+
+header {
+  height: 405px;
+  margin-bottom: 2em;
+  border: solid #e0e0e0 2px;
+  text-align: center;
+  background-color: #ffa949; }
+
+header h1, header h2 {
+  border: solid #e0e0e0 2px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 10px;
+  background-color: black;
+  color: white; }
+
+.nav .name {
+  text-align: left; }
+
+#picOfMe {
+  transition: all .5s;
+  width: auto;
+  max-width: 150px;
+  border-radius: 50%;
+  border: 5px solid black; }
+
+#picOfMe:hover {
+  transform: scale(1.25); }
+
+footer {
+  height: 200px;
+  margin-top: 2em;
+  border-top: solid #e0e0e0 2px;
+  text-align: center;
+  background-color: #ffa949; }
+
+footer, .push {
+  height: 200px; }
+
+.wrapper-outer {
+  width: 100%;
+  margin: 0 auto; }
+
+.wrapper-inner {
+  width: 95%;
+  min-width: 400px;
+  max-width: 1000px;
+  border-radius: 20px;
+  margin: 0 auto; }
+
+.infoBox {
+  border: solid #e0e0e0 2px;
+  width: 400px;
+  vertical-align: top;
+  display: inline-block;
+  height: 250px;
+  margin-right: -4px;
+  padding: 20px;
+  text-align: left;
+  background: #c4c4c4; }
+
+@media (720px) {
+  .wrapper-inner {
+    width: 95%; } }
+@media (720px) {
+  .wrapper-inner {
+    width: 95%; }
+
+  .infoBox {
+    width: 95%; } }
+button {
+  font-size: 18px;
+  border: none;
+  margin-bottom: 0;
+  width: 250px;
+  background-color: black;
+  color: white;
+  padding: 0px;
+  border-radius: 10px; }
+
+#adressBTN {
+  border-bottom: solid black 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+#adressBTN:hover {
+  border-bottom: solid blue 3px; }
+
+#hideAdress {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+#hideAdress:hover {
+  border-top: solid blue 3px; }
+
+.linkButton {
+  transition: all .5s;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-width: 50px;
+  max-height: 50px; }
+
+.linkButton:hover {
+  transform: scale(1.25) rotate(5deg); }
+
+#clockTop {
+  border: solid #e0e0e0 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: impact;
+  text-align: center;
+  max-width: 180px;
+  background-color: #000;
+  color: white;
+  font-size: 26px; }
+
+#clockBottom {
+  border: solid #e0e0e0 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: impact;
+  text-align: center;
+  max-width: 180px;
+  background-color: #000;
+  color: white;
+  font-size: 26px; }
+
+#adress {
+  border-left: solid #e0e0e0 2px;
+  border-right: solid #e0e0e0 2px;
+  float: top;
+  border-radius: 0px;
+  width: 245px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+  background: #999999;
+  font-size: 18px; }
+
+/*# sourceMappingURL=application.css.map */

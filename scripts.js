@@ -14,13 +14,15 @@ function showContactInfo() {
  	document.getElementById("infoL4").innerHTML = "Holland, MI 49423";
 }
 //jquery
-$(".infoBox h2").hide().show("slow");
+$(".infoBox h2").hide().slideDown(1600);
 $("#adress").hide();
+$("#hideAdress").hide();
 $( "#adressBTN" ).click(function() {
-  $( "#adress" ).show( "fast" );
-  $( "#adressBTN" ).hide( "fast" );
+  $( "#adress" ).slideDown( 600, function(){});
+  $( "#adress" ).next().slideDown( 600, function(){});
 });
+
 $( "#hideAdress" ).click(function() {
-  $( "#adress" ).hide( "fast" );
-  $( "#adressBTN" ).show( "fast" );
+  $( "#adress" ).slideUp( 400 );
+  $( "#hideAdress" ).slideUp( 400 );
 });

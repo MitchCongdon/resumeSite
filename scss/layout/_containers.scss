@@ -1,0 +1,27 @@
+.wrapper-outer{
+	width: 100%;
+	margin: 0 auto;
+}
+.wrapper-inner{
+	width: 95%;
+	min-width: 400px;
+	max-width: 1000px;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+.infoBox {
+	border: solid $color-border-light 2px;
+	width: 400px;
+	vertical-align: top;
+	display: inline-block;
+	height:250px;
+	margin-right: -4px;
+	padding: 20px;
+	text-align: left;
+	background: #c4c4c4;
+}
+@media (720px){
+	.wrapper-inner{
+		width: 95%
+	}
+}

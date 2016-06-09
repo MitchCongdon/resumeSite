@@ -1,0 +1,32 @@
+header {
+	height: 405px;
+	margin-bottom:2em;
+	border: solid $color-border-light 2px;
+	text-align: center;
+	background-color: $yellow-orange;
+}
+header h1, header h2{
+	border:solid $color-border-light 2px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+    width: auto;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+.nav .name{
+	text-align: left;
+}
+#picOfMe {
+	transition: all .5s;
+	width: auto;
+	max-width: 150px;
+	border-radius: 50%;
+	border: 5px solid black;
+}
+#picOfMe:hover {
+	transform: scale(1.25);
+}
