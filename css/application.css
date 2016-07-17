@@ -3,9 +3,9 @@
 
 body {
   height: 100%;
-  background-color: #add8e6;
+  background-color: #000000;
   text-align: center; }
-
+ 
 h1, h2, h3 {
   border-radius: 10px;
   text-align: center;
@@ -14,14 +14,14 @@ h1, h2, h3 {
   letter-spacing: 6px; }
 
 header {
-  height: 405px;
   margin-bottom: 2em;
   border: solid #e0e0e0 2px;
   text-align: center;
-  background-color: #ffa949; }
+  background-color: black; }
+
 
 header h1, header h2 {
-  border: solid #e0e0e0 2px;
+  border: solid #e4e4e4 2px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -31,19 +31,43 @@ header h1, header h2 {
   border-radius: 10px;
   background-color: black;
   color: white; }
+#slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+#slider .slides {
+  display: block;
+  width: 8000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 1920px;
+  height: 400px;
+}
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
 
 .nav .name {
   text-align: left; }
 
 #picOfMe {
+  margin: 0 auto 0 auto;
   transition: all .5s;
   width: auto;
-  max-width: 150px;
+  max-width: 400px;
   border-radius: 50%;
   border: 5px solid black; }
 
 #picOfMe:hover {
-  transform: scale(1.25); }
+  transform: scale(1.05); }
 
 footer {
   height: 200px;
@@ -61,34 +85,48 @@ footer, .push {
 
 .wrapper-inner {
   width: 95%;
-  min-width: 400px;
-  max-width: 1000px;
-  border-radius: 20px;
+  min-width: 350px;
   margin: 0 auto; }
 
 .infoBox {
-  border: solid #e0e0e0 2px;
-  width: 400px;
-  vertical-align: top;
   display: inline-block;
-  height: 250px;
+  vertical-align: top;
+  border: solid #e0e0e0 2px;
+  width: 500px;
+  vertical-align: top;
+  min-height: 500px;
   margin-right: -4px;
   padding: 20px;
   text-align: left;
-  background: #c4c4c4; }
-
+  background: #631D09;
+  color: white;
+  }
+.infoBox ul{
+  padding-top: 17px;
+  margin-left: 15px;
+  list-style-type: disc;
+  display: list-item;
+}
+.infoBox h2{
+  color: white;
+  background-color: black;
+}
 @media (720px) {
   .wrapper-inner {
-    width: 95%; } }
+
+   }
+  }
 @media (720px) {
   .wrapper-inner {
-    width: 95%; }
 
+   }
   .infoBox {
-    width: 95%; } }
+
+   }
+  }
 button {
   font-size: 18px;
-  border: none;
+  border: 2px #e4e4e4;
   margin-bottom: 0;
   width: 250px;
   background-color: black;
@@ -97,19 +135,20 @@ button {
   border-radius: 10px; }
 
 #adressBTN {
-  border-bottom: solid black 3px;
+  border-bottom: solid black 2px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 #adressBTN:hover {
-  border-bottom: solid blue 3px; }
+  border-bottom: solid blue 2px; }
 
 #hideAdress {
+  border-top: solid black 2px;
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
 #hideAdress:hover {
-  border-top: solid blue 3px; }
+  border-top: solid blue 2px; }
 
 .linkButton {
   transition: all .5s;
@@ -122,18 +161,6 @@ button {
 
 .linkButton:hover {
   transform: scale(1.25) rotate(5deg); }
-
-#clockTop {
-  border: solid #e0e0e0 2px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  font-family: impact;
-  text-align: center;
-  max-width: 180px;
-  background-color: #000;
-  color: white;
-  font-size: 26px; }
 
 #clockBottom {
   border: solid #e0e0e0 2px;
@@ -148,15 +175,21 @@ button {
   font-size: 26px; }
 
 #adress {
-  border-left: solid #e0e0e0 2px;
-  border-right: solid #e0e0e0 2px;
+  border-left: solid #black 5px;
+  border-right: solid #black 5px;
   float: top;
   border-radius: 0px;
   width: 245px;
   padding: 5px;
   display: block;
   margin: 0 auto;
-  background: #999999;
+  background: #e4e4e4;
   font-size: 18px; }
-
+.headerWrapper1{
+  width:80%;
+  float:left;
+}
+.headerWrapper2{
+  
+}
 /*# sourceMappingURL=application.css.map */

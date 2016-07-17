@@ -1,50 +1,89 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!--Normalize.css for cross-browser compatability-->
 		<link rel="stylesheet" type="text/css" href="css/application.css">
+		<!--SCSS not integrated yet, use original style sheet.-->
 		<meta charset="utf-8">
-		
 		<title>Mitchell Congdon | Aspiring Front-End Developer</title>
 	</head>
 	<div class="wrapper-outer">
 		<body>
 			<header>
+			<div class="headerWrapper1">
 				<h1>Mitchell Congdon</h1>
-				<br>
-				<img id="picOfMe" src="img/meTuxZoom.jpg" >
-				<p>
+			</div>
+			<div class="headerWrapper2">
+				
 					<a href="https://www.linkedin.com/in/mitchell-congdon-08a623121">
 						<img class="linkButton" src="img/linkedIn.jpg">
 					</a>
 				</p>
 				<h2>Aspiring Front-End Developer</h2>
-				<p id="clockTop"></p>
+					<!--carousel-->
+				<div id="slider">
+					<ul class="slides">
+						<li class="slide slide1"><img src="img/js-code.jpg"></li>
+						<li class="slide slide2"><img src="img/wwwDot.jpg"></li>
+						<li class="slide slide3"><img src="img/wireframing.jpg"></li>
+						<li class="slide slide1"><img src="img/js-code.jpg"></li>
+					</ul>
+				</div>
+				<!--/carousel-->
 			</header>
-
+			
 			<button id="adressBTN">Contact Info</button>
 				<div id="adress">
 					<p>Mitchell Congdon</p>
+					<p>319 Oxford Court</p>
+					<p>Apt 2</p>
+					<p>Holland, MI 49423</p>
 					<p>congdonmitchell@gmail.com</p>
 					<p>(616)510-3638</p>
-					<p>Holland, MI 49423</p>
 				</div>
 				<button id="hideAdress">*Hide*</button>
 			<div class="wrapper-inner">
 				<section class="infoBox">
 					<h2>Professional Summary</h2>
+					<img id="picOfMe" src="img/meTuxZoom.jpg" >
 					<p>Young, business professional able to function well independently with little to no supervision or in coordination with a professional electronic media team.</p>
 				</section>
 				<section class="infoBox">
 					<h2>Core Qualifications</h2>
 						<ul>
-							<li>*Exceptional creative and analytical thinking abilities</li>
-							<li>*Sound oral and written communication skills</li>
-							<li>*Proficient in HTML, CSS, JavaScript, GIMP</li>
-							<li>*Superior management skills</li>
-							<li>*Determined and highly motivated</li>
-							<li>*Ability to perform well under pressure in a fast paced environment</li>
+							<li>
+								Understanding of HTML, CSS, Bootstrap, JavaScript, Atom, Sublime Text, and Gimp.
+							</li>
+							<li>
+								Basic knowledge of linux Ubuntu, jQuery, SASS, how scrum works, and how to use GitHub website and client.
+							</li>
+							<li>
+								Excellent communication skills both written and verbal with diverse populations.
+							</li>
+							<li>
+								Able to adapt and learn new skills quickly and efficiently.
+							</li>
+							<li>
+								Organized, detail-oriented, and conscientious self-starter, able to strategize and prioritize effectively.
+							</li>
+							<li>
+								Highly ambitious, self-motivated, goal directed, and quality conscious.
+
+							</li>
+							<li>
+								Team player with ability to cross-functionally communicate between departments easily.
+							</li>
+							<li>
+								Able to adapt and learn new skills quickly, detail oriented, can multi-task efficiently.
+							</li>
+							<li>
+								Highly ambitious, goal directed and quality conscious.
+							</li>
+							<li>
+								Team player - Able to cross-functionally communicate between departments easily.
+							</li>
 						</ul>
 				</section>
 				<section class="infoBox">
@@ -64,6 +103,7 @@
 			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 			<script src="scripts.js"></script>
 			<script src="clock.js"></script>
+			<script src="slidingImgGallery.js"></script>
 		</body>
 		<footer>
 			<p id="clockBottom"></p>
