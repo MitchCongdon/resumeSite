@@ -3,7 +3,7 @@
 
 body {
   height: 100%;
-  background-color: #000000;
+  background-color: #333;
   text-align: center; }
  
 h1, h2, h3 {
@@ -31,50 +31,26 @@ header h1, header h2 {
   border-radius: 10px;
   background-color: black;
   color: white; }
-#slider {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-#slider .slides {
-  display: block;
-  width: 8000px;
-  height: 400px;
-  margin: 0;
-  padding: 0;
-}
-#slider .slide {
-  float: left;
-  list-style-type: none;
-  width: 1920px;
-  height: 400px;
-}
-.slide1 {background: red;}
-.slide2 {background: blue;}
-.slide3 {background: green;}
-.slide4 {background: purple;}
-.slide5 {background: pink;}
 
 .nav .name {
   text-align: left; }
 
 #picOfMe {
-  margin: 0 auto 0 auto;
+  margin: auto;
   transition: all .5s;
-  width: auto;
-  max-width: 400px;
-  border-radius: 50%;
+  width: 100%;
+  border-radius: 10%;
   border: 5px solid black; }
 
 #picOfMe:hover {
-  transform: scale(1.05); }
+  transform: scale(1.01); }
 
 footer {
   height: 200px;
   margin-top: 2em;
   border-top: solid #e0e0e0 2px;
   text-align: center;
-  background-color: #ffa949; }
+  background-color: #000; }
 
 footer, .push {
   height: 200px; }
@@ -84,17 +60,19 @@ footer, .push {
   margin: 0 auto; }
 
 .wrapper-inner {
+    background-color: #999;
   width: 95%;
   min-width: 350px;
-  margin: 0 auto; }
-
+  margin: -2em auto -2em auto;
+padding: 2em 0 5em 0;
+}
 .infoBox {
   display: inline-block;
   vertical-align: top;
   border: solid #e0e0e0 2px;
   width: 500px;
   vertical-align: top;
-  min-height: 500px;
+  min-height: 600px;
   margin-right: -4px;
   padding: 20px;
   text-align: left;
@@ -111,19 +89,6 @@ footer, .push {
   color: white;
   background-color: black;
 }
-@media (720px) {
-  .wrapper-inner {
-
-   }
-  }
-@media (720px) {
-  .wrapper-inner {
-
-   }
-  .infoBox {
-
-   }
-  }
 button {
   font-size: 18px;
   border: 2px #e4e4e4;
@@ -186,10 +151,10 @@ button {
   background: #e4e4e4;
   font-size: 18px; }
 .headerWrapper1{
+    margin:auto;
   width:80%;
-  float:left;
 }
-.headerWrapper2{
-  
+.padding{
+    margin:1em auto;
 }
 /*# sourceMappingURL=application.css.map */
