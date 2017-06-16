@@ -2,7 +2,6 @@
   box-sizing: border-box; }
 
 body {
-  height: 100%;
   background-color: #333;
   text-align: center; }
  
@@ -14,36 +13,18 @@ h1, h2, h3 {
   letter-spacing: 6px; }
 
 header {
-  margin-bottom: 2em;
-  border: solid #e0e0e0 2px;
+  width: 100%;
+  padding: 2em;
+  border-bottom: solid #e0e0e0 2px;
   text-align: center;
   background-color: black; }
 
 
 header h1, header h2 {
-  border: solid #e4e4e4 2px;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
+  margin: 0 auto;
   width: auto;
-  max-width: 600px;
-  max-height: 600px;
-  border-radius: 10px;
   background-color: black;
   color: white; }
-
-.nav .name {
-  text-align: left; }
-
-#picOfMe {
-  margin: auto;
-  transition: all .5s;
-  width: 100%;
-  border-radius: 10%;
-  border: 5px solid black; }
-
-#picOfMe:hover {
-  transform: scale(1.01); }
 
 footer {
   height: 200px;
@@ -55,25 +36,35 @@ footer {
 footer, .push {
   height: 200px; }
 
+#picOfMe {
+  margin: auto;
+  transition: all .5s;
+  width: 100%;
+  border-radius: 10%;
+  border: 5px solid black; }
+
+#picOfMe:hover {
+  transform: scale(1.02); }
+
 .wrapper-outer {
   width: 100%;
-  margin: 0 auto; }
+}
 
 .wrapper-inner {
-    background-color: #999;
-  width: 95%;
+  background-color: #999;
+  width: 90%;
+  margin:5em auto;
   min-width: 350px;
-  margin: -2em auto -2em auto;
-padding: 2em 0 5em 0;
+  padding: 2em 0 5em 0;
 }
 .infoBox {
+  font-family: courier;
   display: inline-block;
   vertical-align: top;
   border: solid #e0e0e0 2px;
   width: 500px;
   vertical-align: top;
   min-height: 600px;
-  margin-right: -4px;
   padding: 20px;
   text-align: left;
   background: #631D09;
@@ -89,32 +80,6 @@ padding: 2em 0 5em 0;
   color: white;
   background-color: black;
 }
-button {
-  font-size: 18px;
-  border: 2px #e4e4e4;
-  margin-bottom: 0;
-  width: 250px;
-  background-color: black;
-  color: white;
-  padding: 0px;
-  border-radius: 10px; }
-
-#adressBTN {
-  border-bottom: solid black 2px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
-#adressBTN:hover {
-  border-bottom: solid blue 2px; }
-
-#hideAdress {
-  border-top: solid black 2px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0; }
-
-#hideAdress:hover {
-  border-top: solid blue 2px; }
-
 .linkButton {
   transition: all .5s;
   border: 2px solid white;
@@ -127,34 +92,19 @@ button {
 .linkButton:hover {
   transform: scale(1.25) rotate(5deg); }
 
-#clockBottom {
+#clock{
+  position: relative;
+  right:5%;
+  float: right;
+  padding: 3px;
   border: solid #e0e0e0 2px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 10px;
-  font-family: impact;
+  font-family: courier;
   text-align: center;
-  max-width: 180px;
-  background-color: #000;
+  background-color: #999;
   color: white;
   font-size: 26px; }
-
-#adress {
-  border-left: solid #black 5px;
-  border-right: solid #black 5px;
-  float: top;
-  border-radius: 0px;
-  width: 245px;
-  padding: 5px;
-  display: block;
-  margin: 0 auto;
-  background: #e4e4e4;
-  font-size: 18px; }
-.headerWrapper1{
-    margin:auto;
-  width:80%;
-}
-.padding{
-    margin:1em auto;
+.picBox img {
+  width: 100%;
 }
 /*# sourceMappingURL=application.css.map */
